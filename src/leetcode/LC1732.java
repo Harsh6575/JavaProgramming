@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 public class LC1732 {
     /*
         Leetcode 1732. Find the Highest Altitude
