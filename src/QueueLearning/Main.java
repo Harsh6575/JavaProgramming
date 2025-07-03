@@ -1,18 +1,11 @@
 package QueueLearning;
 
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 public class Main {
     public static void main(String[] args) {
-        CircularQUE cque = new CircularQUE(5);
-        cque.enqueue(4);
-        cque.enqueue(6);
-        cque.enqueue(7);
-        cque.enqueue(41);
-        cque.enqueue(45);
-
-        cque.display();
-
-        cque.dequeue();
-//        cque.enqueue(24423); 
-        cque.display();
+        Queue<Integer> queue = new LinkedList<Integer>();
     }
 }
