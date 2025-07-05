@@ -78,6 +78,7 @@
     "Application.NKnights.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.OneA.executor": "Run",
+    "Application.OneEighteenA.executor": "Run",
     "Application.OneThirtyOneA.executor": "Run",
     "Application.OneThirtySixA.executor": "Run",
     "Application.Patterns.executor": "Run",
@@ -113,7 +114,7 @@
       <recent name="leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FiftyEightA">
+  <component name="RunManager" selected="Application.OneEighteenA">
     <configuration name="FiftyEightA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeForces.FiftyEightA" />
       <module name="JavaProgramming" />
@@ -127,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FiveTwentyA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForces.FiveTwentyA" />
+    <configuration name="OneA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.OneA" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForces.OneA" />
+    <configuration name="OneEighteenA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.OneEighteenA" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -181,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OneEighteenA" />
         <item itemvalue="Application.FiftyEightA" />
         <item itemvalue="Application.OneThirtyOneA" />
         <item itemvalue="Application.OneA" />
         <item itemvalue="Application.OneThirtySixA" />
-        <item itemvalue="Application.FiveTwentyA" />
       </list>
     </recent_temporary>
   </component>
