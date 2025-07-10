@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="65a7c96c-094e-4ce4-b651-42a22fa99217" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BTree/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BTree/AVL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "Application.BubbleSort.executor": "Run",
     "Application.CycleSort.executor": "Run",
     "Application.Fib.executor": "Run",
+    "Application.FiftyA.executor": "Run",
     "Application.FiftyEightA.executor": "Run",
     "Application.FiveTwentyA.executor": "Run",
     "Application.FourSixtySevenA.executor": "Run",
@@ -84,6 +84,8 @@
     "Application.OneEightyEightD.executor": "Run",
     "Application.OneThirtyOneA.executor": "Run",
     "Application.OneThirtySixA.executor": "Run",
+    "Application.OneThreeThirtyFiveA.executor": "Run",
+    "Application.OneTwelveA.executor": "Run",
     "Application.OneZeroThirtyA.executor": "Run",
     "Application.OneZeroTwoB.executor": "Run",
     "Application.Patterns.executor": "Run",
@@ -122,9 +124,9 @@
       <recent name="leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OneEightyEightD">
-    <configuration name="FourSixtySevenA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForces.FourSixtySevenA" />
+  <component name="RunManager" selected="Application.OneThreeThirtyFiveA">
+    <configuration name="FiftyA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.FiftyA" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -162,8 +164,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SixSeventySevenA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForces.SixSeventySevenA" />
+    <configuration name="OneThreeThirtyFiveA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.OneThreeThirtyFiveA" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -175,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoHundredB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForces.TwoHundredB" />
+    <configuration name="OneTwelveA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.OneTwelveA" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -190,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OneThreeThirtyFiveA" />
+        <item itemvalue="Application.OneTwelveA" />
+        <item itemvalue="Application.FiftyA" />
         <item itemvalue="Application.OneEightyEightD" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SixSeventySevenA" />
-        <item itemvalue="Application.TwoHundredB" />
-        <item itemvalue="Application.FourSixtySevenA" />
       </list>
     </recent_temporary>
   </component>
