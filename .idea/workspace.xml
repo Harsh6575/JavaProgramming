@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="65a7c96c-094e-4ce4-b651-42a22fa99217" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +85,13 @@
     "Application.OneA.executor": "Run",
     "Application.OneEighteenA.executor": "Coverage",
     "Application.OneEightyEightD.executor": "Run",
+    "Application.OneOneNinetySevenB.executor": "Debug",
     "Application.OneThirtyOneA.executor": "Run",
     "Application.OneThirtySixA.executor": "Run",
+    "Application.OneThreeFiftyTwoC.executor": "Run",
     "Application.OneThreeThirtyFiveA.executor": "Run",
     "Application.OneTwelveA.executor": "Run",
+    "Application.OneTwoZeroThreeA.executor": "Run",
     "Application.OneZeroThirtyA.executor": "Run",
     "Application.OneZeroTwoB.executor": "Run",
     "Application.Patterns.executor": "Run",
@@ -128,7 +130,7 @@
       <recent name="leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CodeForces.NineNinetySixA">
+  <component name="RunManager" selected="Application.OneThreeFiftyTwoC">
     <configuration name="CodeForces.NineNinetySixA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeForces.NineNinetySixA" />
       <module name="JavaProgramming" />
@@ -149,8 +151,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NineNintySixA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForces.NineNintySixA" />
+    <configuration name="OneOneNinetySevenB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.OneOneNinetySevenB" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -162,8 +164,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneThreeThirtyFiveA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForces.OneThreeThirtyFiveA" />
+    <configuration name="OneThreeFiftyTwoC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.OneThreeFiftyTwoC" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -175,20 +177,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="OneTwoZeroThreeA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.OneTwoZeroThreeA" />
       <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeForces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OneThreeFiftyTwoC" />
+        <item itemvalue="Application.OneTwoZeroThreeA" />
+        <item itemvalue="Application.OneOneNinetySevenB" />
         <item itemvalue="Application.CodeForces.NineNinetySixA" />
         <item itemvalue="Application.NineNinetySixA" />
-        <item itemvalue="Application.NineNintySixA" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.OneThreeThirtyFiveA" />
       </list>
     </recent_temporary>
   </component>
