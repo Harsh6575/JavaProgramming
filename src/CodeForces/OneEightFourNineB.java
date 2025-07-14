@@ -17,7 +17,7 @@ public class OneEightFourNineB {
             long k = sc.nextInt();
             long[] health = new long[n];
             List<pair> list = new ArrayList<>();
-            int final_ans[] = new int[n];
+            int[] final_ans = new int[n];
 
             for (int i = 0; i < n; i++) {
                 health[i] = sc.nextInt();
