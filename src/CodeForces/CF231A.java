@@ -1,20 +1,22 @@
 package CodeForces;
 
-// George and Accommodation
+// Team
 
 import java.util.Scanner;
 
-public class FourSixtySevenA {
+public class CF231A {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         int count = 0;
-        while (t-- > 0){
-            int p=sc.nextInt();
-            int q=sc.nextInt();
-            if((p+2)<=q){
+        while (t-- >0){
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            int c = sc.nextInt();
+            if (a + b + c >= 2) {
                 count++;
             }
+
         }
         System.out.println(count);
     }

@@ -1,14 +1,13 @@
 package CodeForces;
 
-// Domino piling
+// Rounding
 
 import java.util.Scanner;
 
-public class FiftyA {
+public class CF891A {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int m = sc.nextInt();
         int n = sc.nextInt();
-        System.out.println(((m*n)/2));
+        System.out.println(((n + 5) / 10) * 10);
     }
 }

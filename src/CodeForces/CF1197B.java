@@ -4,7 +4,7 @@ package CodeForces;
 
 import java.util.Scanner;
 
-public class OneOneNinetySevenB {
+public class CF1197B {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

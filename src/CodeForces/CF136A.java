@@ -1,10 +1,10 @@
 package CodeForces;
 
-// In Search of an Easy Problem
+// Presents
 
 import java.util.Scanner;
 
-public class OneZeroThirtyA {
+public class CF136A {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -12,12 +12,12 @@ public class OneZeroThirtyA {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        int[] p = new int[n];
         for (int i = 0; i < n; i++) {
-            if(arr[i]!=0){
-                System.out.println("HARD");
-                return;
-            }
+            p[arr[i] - 1] = i+1;
         }
-        System.out.println("EASY");
+        for (int i = 0; i < n; i++) {
+            System.out.println(p[i]);
+        }
     }
 }

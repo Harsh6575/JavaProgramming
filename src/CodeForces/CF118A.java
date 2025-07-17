@@ -4,7 +4,7 @@ package CodeForces;
 
 import java.util.Scanner;
 
-public class OneEighteenA {
+public class CF118A {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();

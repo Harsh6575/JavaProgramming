@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65a7c96c-094e-4ce4-b651-42a22fa99217" name="Changes" comment="">
+    <list default="true" id="65a7c96c-094e-4ce4-b651-42a22fa99217" name="Changes" comment="581A - Vasya the Hipster,617A - Elephant">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeForces/EightNinetyEightA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForces/CF891A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeForces/FiftyA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForces/CF50A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeForces/FiveEightyOneA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForces/CF581A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeForces/FiveTwentyA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForces/CF520A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeForces/FourA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForces/CF4A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeForces/FourSixtySevenA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForces/CF467A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeForces/NineNinetySixA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForces/CF996A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeForces/OneA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForces/CF1A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeForces/OneEightFiveZeroE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForces/CF1850E.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeForces/OneEighteenA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForces/CF118A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +61,14 @@
     "Application.BinarySearch2d.executor": "Run",
     "Application.BinaryTree.executor": "Run",
     "Application.BubbleSort.executor": "Run",
+    "Application.CF891A.executor": "Run",
     "Application.CodeForces.NineNinetySixA.executor": "Run",
     "Application.CycleSort.executor": "Run",
+    "Application.EightNinetyEightA.executor": "Debug",
     "Application.Fib.executor": "Run",
     "Application.FiftyA.executor": "Run",
     "Application.FiftyEightA.executor": "Run",
+    "Application.FiveEightyOneA.executor": "Run",
     "Application.FiveTwentyA.executor": "Run",
     "Application.FourSixtySevenA.executor": "Run",
     "Application.InsertionSort.executor": "Debug",
@@ -83,12 +96,18 @@
     "Application.NineNinetySixA.executor": "Run",
     "Application.NineNintySixA.executor": "Run",
     "Application.OneA.executor": "Run",
+    "Application.OneEightFiveZeroE.executor": "Run",
+    "Application.OneEightFourNineB (1).executor": "Run",
+    "Application.OneEightFourNineB (2).executor": "Run",
+    "Application.OneEightFourNineB.executor": "Debug",
     "Application.OneEighteenA.executor": "Coverage",
     "Application.OneEightyEightD.executor": "Run",
+    "Application.OneOneNinetyNineA.executor": "Run",
     "Application.OneOneNinetySevenB.executor": "Debug",
     "Application.OneThirtyOneA.executor": "Run",
     "Application.OneThirtySixA.executor": "Run",
     "Application.OneThreeFiftyTwoC.executor": "Run",
+    "Application.OneThreeFourTwoA.executor": "Run",
     "Application.OneThreeThirtyFiveA.executor": "Run",
     "Application.OneTwelveA.executor": "Run",
     "Application.OneTwoZeroThreeA.executor": "Run",
@@ -102,6 +121,7 @@
     "Application.SegementTrees.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.SeventyOneA.executor": "Run",
+    "Application.SixSeventeenA.executor": "Debug",
     "Application.SixSeventySevenA.executor": "Run",
     "Application.Solution (1).executor": "Run",
     "Application.Solution.executor": "Run",
@@ -130,9 +150,9 @@
       <recent name="leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OneThreeFiftyTwoC">
-    <configuration name="CodeForces.NineNinetySixA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForces.NineNinetySixA" />
+  <component name="RunManager" selected="Application.CF891A">
+    <configuration name="CF581A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.CF581A" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -144,15 +164,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NineNinetySixA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NineNinetySixA" />
-      <module name="JavaProgramming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OneOneNinetySevenB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForces.OneOneNinetySevenB" />
+    <configuration name="CF891A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.CF891A" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -164,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneThreeFiftyTwoC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForces.OneThreeFiftyTwoC" />
+    <configuration name="OneEightFourNineB (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.OneEightFourNineB" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -177,8 +190,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneTwoZeroThreeA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForces.OneTwoZeroThreeA" />
+    <configuration name="OneEightFourNineB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.OneEightFourNineB" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeForces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneOneNinetyNineA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.OneOneNinetyNineA" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeForces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SixSeventeenA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForces.SixSeventeenA" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -192,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OneThreeFiftyTwoC" />
-        <item itemvalue="Application.OneTwoZeroThreeA" />
-        <item itemvalue="Application.OneOneNinetySevenB" />
-        <item itemvalue="Application.CodeForces.NineNinetySixA" />
-        <item itemvalue="Application.NineNinetySixA" />
+        <item itemvalue="Application.CF891A" />
+        <item itemvalue="Application.CF581A" />
+        <item itemvalue="Application.SixSeventeenA" />
+        <item itemvalue="Application.OneOneNinetyNineA" />
+        <item itemvalue="Application.OneEightFourNineB" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +248,85 @@
       <option name="presentableId" value="Default" />
       <updated>1743595071660</updated>
     </task>
+    <task id="LOCAL-00001" summary="1342A">
+      <option name="closed" value="true" />
+      <created>1752380570964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752380570964</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1850E Cardboard for Pictures">
+      <option name="closed" value="true" />
+      <created>1752467973997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752467973997</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1849B">
+      <option name="closed" value="true" />
+      <created>1752491693845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752491693845</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1849B - code changes array style from c to java">
+      <option name="closed" value="true" />
+      <created>1752491747515</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752491747515</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1199A - City Day">
+      <option name="closed" value="true" />
+      <created>1752553330911</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752553330911</updated>
+    </task>
+    <task id="LOCAL-00006" summary="898A – Rounding">
+      <option name="closed" value="true" />
+      <created>1752675352687</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752675352687</updated>
+    </task>
+    <task id="LOCAL-00007" summary="581A - Vasya the Hipster,617A - Elephant">
+      <option name="closed" value="true" />
+      <created>1752724579935</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752724579935</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1342A" />
+    <MESSAGE value="1850E Cardboard for Pictures" />
+    <MESSAGE value="1849B" />
+    <MESSAGE value="1849B - code changes array style from c to java" />
+    <MESSAGE value="1199A - City Day" />
+    <MESSAGE value="898A – Rounding" />
+    <MESSAGE value="581A - Vasya the Hipster,617A - Elephant" />
+    <option name="LAST_COMMIT_MESSAGE" value="581A - Vasya the Hipster,617A - Elephant" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
