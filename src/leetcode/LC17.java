@@ -12,54 +12,38 @@ public class LC17 {
     */
 
     static List<String> letterCombinations(String digits) {
-        List<String> ans = new ArrayList<>();
-        if (digits == null || digits.length() == 0) {
-            return ans;
-        }
+        Map<Character, String> map = new HashMap<>();
+        map.put('2', "abc");
+        map.put('3', "def");
+        map.put('4', "ghi");
+        map.put('5', "jkl");
+        map.put('6', "mno");
+        map.put('7', "pqrs");
+        map.put('8', "tuv");
+        map.put('9', "wxyz");
 
-        Map<Character, String> digitToLetters = new HashMap<>();
-        digitToLetters.put('2', "abc");
-        digitToLetters.put('3', "def");
-        digitToLetters.put('4', "ghi");
-        digitToLetters.put('5', "jkl");
-        digitToLetters.put('6', "mno");
-        digitToLetters.put('7', "pqrs");
-        digitToLetters.put('8', "tuv");
-        digitToLetters.put('9', "wxyz");
+        List<String> res = new ArrayList<>();
+        if (digits == null || digits.length() == 0) return res;
 
-        char[] arr=digits.toCharArray();
-
-        return ans;
+        backtrack(res, new StringBuilder(), digits, 0, map);
+        return res;
     }
 
-    static void pad(String p, String up){
-        if(up.isEmpty()){
-            System.out.println(p);
+    private static void backtrack(List<String> res, StringBuilder sb, String digits, int index, Map<Character, String> map) {
+        if (index == digits.length()) {
+            res.add(sb.toString());
             return;
         }
-        int digit = up.charAt(0) - '0';
-        for (int i = (digit-1)*3; i < digit*3; i++) {
-            char ch = (char) ('a'+i);
-            pad(p+ch,up.substring(1));
-        }
-    }
 
-    static List<String> padList(String p, String up){
-        if(up.isEmpty()){
-            List<String> list= new ArrayList<>();
-            list.add(p);
-            return list;
+        String str = map.get(digits.charAt(index));
+        for (int i = 0; i < str.length(); i++) {
+            sb.append(str.charAt(i));
+            backtrack(res, sb, digits, index + 1, map);
+            sb.deleteCharAt(sb.length() - 1);
         }
-        int digit = up.charAt(0) - '0';
-        List<String> ans = new ArrayList<>();
-        for (int i = (digit-1)*3; i < digit*3; i++) {
-            char ch = (char) ('a'+i);
-            ans.addAll(padList(p+ch,up.substring(1)));
-        }
-        return ans;
     }
 
     public static void main(String[] args) {
-        System.out.println(padList("","12"));
+        System.out.println(letterCombinations("23"));
     }
 }
